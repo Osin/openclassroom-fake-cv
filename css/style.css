@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Lato;
+    src: url("../font/Lato-Light.ttf");
+}
+
+body{
+    background: url("../img/background.jpg") repeat;
+    font-family: Lato, Verdana;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    height: 700px;
+    overflow: auto;
+}
+#lisere{
+    min-width: 10%;
+    height:100%;
+    overflow: hidden;
+    background: url("../img/lisere.png") repeat;
+}
+#content{
+    padding:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section{
+    width: 33%;
+    text-wrap: normal;
+}
+
+h3{
+    color: #A52A2A;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header div{
+    padding: 50px 0 0 20px;
+}
+
+header img{
+    margin:20px 20px;
+    border: 2px black ;
+    box-shadow: 4px 4px black;
+}
